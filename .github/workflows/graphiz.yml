@@ -9,6 +9,6 @@ jobs:
     - name: Check out repository code
       uses: actions/checkout@v3
     - name: Permissions
-      run: sudo chmod u+x graphviz.sh
+      run: sudo chmod u+x graphviz1.sh
     - name: Lancement graphviz
       run: ./graphviz1.sh g1
